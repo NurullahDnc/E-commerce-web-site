@@ -1,0 +1,565 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+		
+		<link rel="shortcut icon" href="image/indir.png">
+
+		
+		<script language="JavaScript">
+			var left="   ";
+			var right=" ";
+			var msg="Modayola | Turkiyenin en büyük online alısverisi...";
+			var speed=100;
+
+			function scroll_title() 
+			{
+				document.title=left+msg+right;
+				msg=msg.substring(1,msg.length)+msg.charAt(0);
+				setTimeout("scroll_title()",speed);
+			}
+				scroll_title();
+
+		</script>
+
+	</head>
+	<body>
+
+		<!--
+			position:relative;  =  ustunde kutu varsa ordan alıyor ordan deger alıyor
+			position:absolite;  = koslerden alıyor  deger alıyor ve kutular ust uste gelebilir ve sadece o sayfda konumlandırıyor
+			position:fixed;  	= kutuyu siteye konumlandırıyor-->
+		<div class="genel">
+
+			<div class="ust-bar1">
+
+				<div class="logo-yazısı">
+					modayol
+				</div>
+
+			</div>
+
+			<div class="ust-bar2">
+
+				<div>
+					<input class="arama" type="text" name="arama" placeholder="Aradıgınız ürün , kategori ve mark yazınız">
+				
+				</div>
+
+			</div>
+
+			<div class="ust-bar3">
+
+				<ol class="ust1-menu">
+
+					<li><a href="#">indirim kuponlarım</a></li>
+					<li><a href="#">modayol'da satış yap</a></li>
+					<li><a href="#">cözüm&merkezi</a></li>
+				</ol>
+
+				<ol class="ust2-menu">
+
+						
+					<input id="submit" type="submit" name="buton" value="giris">
+					<input id="reset" type="reset" name="buton" value="uye ol">
+					
+					
+
+				</ol>
+			</div>
+
+		</div>
+
+		<div class="menular">
+
+
+			<ol>
+				<li><a href="#">KADIN</a></li>
+				<li><a href="#">ERKEK</a></li>
+				<li><a href="#">ÇOCUK</a></li>
+				<li><a href="#">EV&MOBİLYA</a></li>
+				<li><a href="#">SÜPERMARKET</a></li>
+				<li><a href="#">KOZMATİK</a></li>
+				<li><a href="#">AYAKKABI&CANTA</a></li>
+				<li><a href="#">SAAT&AKSESUAR</a></li>
+				<li><a href="#">ELEKTRONİK</a></li>
+				<li><a href="#">SPOR&OUTDOOR</a></li>
+
+		
+				
+			</ol>
+
+			<hr class="hrler">
+
+			<div class="ic-bar">
+					<div class="urun">
+
+						<img id="urun-yazı" src="image/guess.png" width="100%" height="100%">
+
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Guess</p>
+			</div>
+
+			<div class="ic-bar">
+
+					<div class="urun">
+						<img src="image/samsung2.png" width="75%" height="75%">
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Size </p>
+			</div>
+
+			<div class="ic-bar">
+
+				<div class="urun">
+					<img src="image/logo.png" width="93%" height="93%" >
+				</div>
+
+					<p style="text-align: center; padding-top: 3px;">Burattı</p>
+			</div>
+
+			<div class="ic-bar">
+
+					<div class="urun">
+						<img src="image/koton-logo.png" width="90%" height="90%">
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Koton</p>
+			</div>
+
+			<div class="ic-bar">
+
+					<div class="urun">
+						<img src="image/Defacto_202107301618.png" width="95%" height="95%">
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Defacto</p>
+			</div>
+
+			<div class="ic-bar">
+
+					<div class="urun">
+						<img src="image/adidas-logo2.png" width="75%" height="80%">
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Adidas</p>
+			</div>
+
+			<div class="ic-bar">
+
+					<div class="urun">
+						<img src="image/1244.svg" width="90%" height="90%">
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Lumberjack</p>
+			</div>
+
+			<div class="ic-bar">
+
+					<div class="urun">
+						<img id="urun-nike"  src="image/nike-logo-5.png" width="96%" height="96%">
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Nike</p>
+			</div>
+
+			<div class="ic-bar">
+
+					<div class="urun">
+						<img src="image/coksatan.webp" width="100%" height="100%" >
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Çok satanlar</p>
+			</div>
+
+			<div class="ic-bar">
+
+					<div class="urun">
+						<img src="image/seninicin.png" width="100%" height="100%">
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Sen de al!</p>
+			</div>
+
+			<div class="ic-bar">
+
+					<div class="urun">
+						<img id="urun-yazı" src="image/fırsaturunu.png" width="95%" height="*95%">
+					</div>
+
+					<p style="text-align: center; padding-top: 3px;">Size Özel</p>
+			</div> 
+	
+		</div>
+
+
+			<div class="govde">	
+				<div class="govde-ic">
+					<div class="govde-ic-sol">
+						<p class="govdesolust-yazı">Hediyeler , fırsatlar</p>
+						<p class="govdesolalt-yazı">ve cok daha fazlasını keşfet</p>
+						<input class="govdesol-buton" type="submit" name="buton" value="Hemen kesfet">
+					</div>
+					<div class="govde-ic-sag">
+						<img style="border-radius: 15px;" src="image/format_webp.jpg" width="100%" height="100%" >
+					</div>	
+				</div>
+			</div>
+
+			<div class="govdeara-div">
+
+				<p class="govdeara-yazı">Süper Fiyat, Süper Teklif</p>
+			</div>
+
+
+
+			<div class="govdealt-div">
+
+				<div class="govdeic1-div">
+					
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler1.webp" width="100%" height="100%" ></a>
+				</div>
+
+				<div class="govdeic2-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler2.webp" width="100%" height="100%" ></a>
+					
+				</div>
+
+				<div class="govdeic3-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler3.webp" width="100%" height="100%" ></a>
+					
+				</div>
+					
+			</div>
+
+			<div class="govdealt-div">
+
+				<div class="govdeic1-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler4.webp" width="100%" height="100%" ></a>
+						
+				</div>
+
+				<div class="govdeic2-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler5.webp" width="100%" height="100%" ></a>
+					
+				</div>
+
+				<div class="govdeic3-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler6.webp" width="100%" height="100%" ></a>
+					
+				</div>
+					
+			</div>	
+
+			<div class="govdealt-div">
+
+				<div class="govdeic1-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler7.webp" width="100%" height="100%" ></a>
+
+				</div>
+
+				<div class="govdeic2-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler8.webp" width="100%" height="100%" ></a>
+					
+				</div>
+
+				<div class="govdeic3-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler9.webp" width="100%" height="100%" ></a>
+					
+				</div>
+					
+			</div>	
+			<div class="govdealt-div">
+
+				<div class="govdeic1-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler10.webp" width="100%" height="100%" ></a>
+															
+				</div>
+
+				<div class="govdeic2-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler11.webp" width="100%" height="100%" ></a>
+					
+				</div>
+
+
+				<div class="govdeic3-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler12.webp" width="100%" height="100%" ></a>
+					
+				</div>
+					
+			</div>	
+			<div class="govdealt-div">
+
+				<div class="govdeic1-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler13.webp" width="100%" height="100%" ></a>					
+					
+				</div>
+
+				<div class="govdeic2-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler14.webp" width="100%" height="100%" ></a>
+					
+				</div>
+
+
+				<div class="govdeic3-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler15.webp" width="100%" height="100%" ></a>
+					
+				</div>
+					
+			</div>	
+		 	<div class="govdealt-div">
+
+				<div class="govdeic1-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler16.webp" width="100%" height="100%" ></a>
+														
+				</div>
+
+				<div class="govdeic2-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler17.webp" width="100%" height="100%" ></a>
+					
+				</div>
+
+				<div class="govdeic3-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler18.webp" width="100%" height="100%" ></a>
+					
+				</div>
+					
+			</div>	
+			<div class="govdealt-div">
+
+				<div class="govdeic1-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler16.webp" width="100%" height="100%" ></a>				
+					
+				</div>
+
+				<div class="govdeic2-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler17.webp" width="100%" height="100%" ></a>
+					
+				</div>
+
+				<div class="govdeic3-div">
+					<a href="#"><img style="border-radius: 18px;" src="image/resimler18.webp" width="100%" height="100%" ></a>
+					
+				</div>
+					
+			</div>
+	
+
+		<hr class="alt-hr">
+
+		<div class="altmnenuana-yazı">
+
+			<div class="anamenu-sol">
+				<p class="anamenusag-yazı">Popüler Marka ve Mağazalar</p>
+			</div>
+
+			<div class="anamenu-sag">
+				<p class="anmenusol-yazı">Popüler Sayfalar</p>
+			</div>
+
+		</div>
+
+		<div class="ustmenu">
+			<div class="icmenu-in">
+				<div class="ust-solmenu">
+					<div class="ustlist1-sol">
+						<ul>
+
+							<li><a href="#">Penti</a></li>
+							<li><a href="#">Watsons</a></li>
+							<li><a href="#">Stradivarius</a></li>
+							<li><a href="#">İstikbal</a></li>
+							<li><a href="#">Puma</a></li>
+							<li><a href="#">Apple</a></li>
+							<li><a href="#">Xiaomi</a></li>
+							<li><a href="#">Lenovo</a></li>
+							<li><a href="#">Adidas</a></li>
+							<li><a href="#">Columbia</a></li>
+							<li><a href="#">Madame Coco</a></li>
+							<li><a href="#">Defacto</a></li>
+							<li><a href="#">Oriflame</a></li>
+							<li><a href="#">LEGO</a></li>
+							<li><a href="#">Ray-Ban</a></li>														
+						</ul>
+					</div>
+
+					<div class="ustlist1-orta">
+						<ul>
+							<li><a href="#">Mango</a></li>
+							<li><a href="#">English Home</a></li>
+							<li><a href="#">Bellona</a></li>
+							<li><a href="#">Civil</a></li>
+							<li><a href="#">Mudo</a></li>
+							<li><a href="#">Samsung</a></li>
+							<li><a href="#">Oppo</a></li>
+							<li><a href="#">Arçelik</a></li>
+							<li><a href="#">Nike</a></li>
+							<li><a href="#">CROCS</a></li>
+							<li><a href="#">Birkenstock</a></li>
+							<li><a href="#">Mavi</a></li>
+							<li><a href="#">Farmasi</a></li>
+							<li><a href="#">Bosch</a></li>
+							<li><a href="#">Migros</a></li>
+						</ul>
+					</div>
+
+					<div class="ustlist1-sag">
+						<ul>
+							<li><a href="#">Vivense</a></li>
+							<li><a href="#">Bershka</a></li>
+							<li><a href="#">Beymen</a></li>
+							<li><a href="#">Addax</a></li>
+							<li><a href="#">Derimod</a></li>
+							<li><a href="#">Huawei</a></li>
+							<li><a href="#">Monster Notebook</a></li>
+							<li><a href="#">DYSON</a></li>
+							<li><a href="#">Skechers</a></li>
+							<li><a href="#">Lumberjack</a></li>
+							<li><a href="#">Koton</a></li>
+							<li><a href="#">Pierre Cardin</a></li>
+							<li><a href="#">Herbalife</a></li>
+							<li><a href="#">Karaca</a></li>
+							<li><a href="#">Barbie</a></li>
+						
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="ust-sagmenu">
+
+					<div class="ustlist2-sol">
+						<ul>
+							<li><a href="#">Cep Telefonu</a></li>
+							<li><a href="#">iPhone 12</a></li>
+							<li><a href="#">Laptop</a></li>
+							<li><a href="#">Kulaklık</a></li>
+							<li><a href="#">Apple Watch</a></li>
+							<li><a href="#">Buzdolabı</a></li>
+							<li><a href="#">TV Ünitesi</a></li>
+							<li><a href="#">Çalışma Koltuğu</a></li>
+							<li><a href="#">23 Nisan Hediyeleri</a></li>
+							<li><a href="#">Kahve Makinesi</a></li>
+							<li><a href="#">Tıraş Makinesi</a></li>
+							<li><a href="#">Saat</a></li>
+							<li><a href="#">Sneaker</a></li>
+							<li><a href="#">Kitap</a></li>
+							<li><a href="#">Hediye Rehberi</a></li>
+						</ul>
+					</div>
+
+					<div class="ustlist2-orta">
+						<ul>
+							<li><a href="#">iPhone</a></li>
+							<li><a href="#">iPhone 13</a></li>
+							<li><a href="#">Oyuncu Bilgisayarı</a></li>
+							<li><a href="#">Bluetooth Kulaklık</a></li>
+							<li><a href="#">Çamaşır Makinesi</a></li>
+							<li><a href="#">Ütü</a></li>
+							<li><a href="#">Koltuk Takımı</a></li>
+							<li><a href="#">Kitaplık</a></li>
+							<li><a href="#">22 Ayar Bilezik</a></li>
+							<li><a href="#">Çay Makinesi</a></li>
+							<li><a href="#">Elbise</a></li>
+							<li><a href="#">Pantolon</a></li>
+							<li><a href="#">Ayakkabı</a></li>
+							<li><a href="#">Babaya Hediye</a></li>
+							<li><a href="#">Trendyol Blog</a></li>
+						
+						</ul>
+					</div>
+
+					<div class="ustlist2-sag">
+						<ul>
+							<li><a href="#">Samsung Cep Telefonu</a></li>
+							<li><a href="#">Robot Süpürge</a></li>
+							<li><a href="#">Tablet</a></li>
+							<li><a href="#">Playstation</a></li>
+							<li><a href="#">Bulaşık Makinesi</a></li>
+							<li><a href="#">Televizyon</a></li>
+							<li><a href="#">Çalışma Masası</a></li>
+							<li><a href="#">Avize</a></li>
+							<li><a href="#">Parfüm</a></li>
+							<li><a href="#">Blender Seti</a></li>
+							<li><a href="#">Hoodie</a></li>
+							<li><a href="#">Tesettür Giyim</a></li>
+							<li><a href="#">Spor Ayakkabı</a></li>
+							<li><a href="#">Bebek Arabası</a></li>
+							<li><a href="#">Spor Hediyeleri</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			
+
+
+		<div class="altmenu">
+			<div class="altmenu-in">
+				<div class="list-sol">
+					<ul>
+						<li><a href="#" id="modayol-yazı">Modayol</a></li>
+						<li><a href="#">biz kimiz</a></li>
+						<li><a href="#">kariyer</a></li>
+						<li><a href="#">iletisim</a></li>
+						<li><a href="#">Modayol'da satıs yap</a></li>
+						<li><a href="#">kurumsal hediye ceki</a></li>
+						<li><p class="mobil-yazı">Guvenli alısveriş</p></li>
+					</ul>
+				</div>
+
+				<div class="list-orta1">
+					<ul>
+						<li><a href="#" id="modayol-yazı">About us</a></li>
+						<li><a href="#">who we are</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">how can i return it</a></li>
+						<li><p class="alısveris-yazı">Mobil uygulamalar</p></li>
+					</ul>
+				</div>
+
+				<div class="list-orta2">
+					<ul>
+						<li><a href="#" id="modayol-yazı">Kampanyalar</a></li>
+						<li><a href="#">Aktif kampanyalar</a></li>
+						<li><a href="#">Elite üyelik</a></li>
+						<li><a href="#">Hediye fikirleri</a></li>
+						<li><a href="#">Trendyol fırsatlar</a></li>
+						<li><p class="alısveris-yazı">Sosyal medya</p></li>
+					</ul>
+				</div>
+
+				<div class="list-sag">
+					<ul>
+						<li><a href="#" id="modayol-yazı">Yardım</a></li>
+						<li><a href="#">Sıkca sorulan sorular</a></li>
+						<li><a href="#">canlı yardım</a></li>
+						<li><a href="#">Nasıl iade edebilirim</a></li>
+						<li><a href="#">İslem rehberi</a></li>
+						<li><p class="alısveris-yazı">Dil degistir</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="alt-bilgi1">
+
+			<div class="sol-alt">
+				<p class="alt-yazı1">©2022 DSM Grup Danışmanlık İletişim ve Satış Tic.A.Ş.-Her Hakkı Saklıdır.</p>
+			</div>
+
+			<div class="sag-alt">
+
+				<a class="alt-yazı2" href="#">KVK ve gizlilik politikası</a>
+				<a class="alt-yazı2" href="#">DSM gurup</a>
+				<a class="alt-yazı2" href="#">Kulanım koşuları</a>
+			</div>
+		</div>
+
+		
+	
+	</body>
+</html>

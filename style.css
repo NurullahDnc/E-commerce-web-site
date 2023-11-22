@@ -1,0 +1,673 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial;
+}
+.hrler{
+
+	border-color: grey;
+	width: 100%;
+	margin: auto;
+	border-width: 0.3;
+	margin-top: -0.4%;
+	opacity: 0.4;
+
+
+}
+
+.genel{
+
+	width: 88%;
+	height: 13%;
+	margin: auto;
+	background-color: none;
+
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.ust-bar1{
+
+	width: 20%;
+	height: 100%;
+	float: left;
+	
+	background-color:none;
+}
+.logo-yazısı{
+
+	font-weight: 500;
+	font-size: 39;
+	padding-left:10%;
+	padding-top: 8%;
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.ust-bar2{
+
+	width: 42%;
+	height: 100%;
+	float: left;
+	background-color: none;
+}
+.arama{
+
+	width: 94%;
+	height: 46%;
+	border-radius: 6px;
+	border-width: 1;
+	margin-left: 0%;
+	margin-top: 27;
+	padding-bottom: 0.1%;
+	padding-left: 3.1%;
+	color: black;
+	background-color: #dddddd;
+
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.ust-bar3{
+
+	width: 38%;
+	height: 100%;
+	float: right;
+	background-color: none;
+}	
+ol.ust1-menu {
+
+	list-style-type: none;
+	padding-top: 1%;
+	text-align: right;
+
+}
+.ust1-menu li{
+
+	text-decoration: none;
+	display: inline;
+	padding-right: 1%;
+	padding-left: 2%;
+	padding-top: 5%;
+	color: black;
+
+}
+.ust1-menu li a{
+
+	color: #828282;
+	text-decoration: none;
+	font-size: 14px;
+	background-color: mone;
+
+}
+
+.ust1-menu li a:hover{
+
+	color: black;
+	
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+.ust2-menu {
+	width: 30%;
+	height: 60%;
+	padding-top: %;
+	padding-left: 0%;
+	margin-left: 30%;
+	margin-top: 1.5%;
+	background-color: none;
+}
+
+#submit{
+
+	width: 45%;
+	height: 60%;
+	border-width: 0.3px;
+	border-radius: 7px;
+	margin-left: -0.2%;
+	margin-top: 7%;
+	font-size: 14px;
+	font-family: verdana;
+	background-color: #ff7f24;
+
+}
+
+
+#reset{
+	width: 45%;
+	height: 60%;
+	border-width: 0.3px;
+	border-radius: 7px;
+	margin-left: 55%;
+	margin-top: -33;
+	font-size: 14px;
+	font-family: verdana;
+	margin-right: 1%;
+	background-color: none;
+}
+
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+.menular{
+
+	width: 88%;
+	height: 25%;
+	margin: auto;
+	text-align: center;
+	background-color: none;
+	
+}
+ol.menular{
+
+	list-style-type: none;
+
+}
+.menular li{
+
+	display: inline;
+	margin-left: 2%;
+	padding-top: 20%;
+
+}
+.menular li a{
+
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 45px;
+
+}
+.menular li a:hover{
+
+	color: #800000;
+	border-bottom-style: solid;
+	border-width: 3px;
+	text-align: center;
+	padding-bottom: 0.6%;
+
+}
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.ic-bar{
+
+	width: 7%;
+	height: 55%;
+	float: right;
+	padding-top: 1.6%;
+	padding-right: 1.5%;
+	margin-left: 1px;
+	background-color: none;
+
+}
+.ic-bar p {
+
+	font-family: "calibri";
+	font-size: 15;
+}
+
+.urun{
+
+	width: 60px;
+	height: 60px;
+	border-radius: 100px;
+	margin: auto;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #cfcfcf;
+
+
+}
+#urun-nike{
+	margin-left: 7%;
+	margin-top: 7;
+
+}
+
+.urun img{
+
+	margin-left: 0.5%;
+	margin-top: 0.5;
+}
+#urun-yazı{
+
+	font-size: 14px;
+	color: red;
+}
+.ic-bar img:hover{
+	color: red;
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+
+.govde{
+	width: 100%;
+	height: 65%;
+	background-color: #ff8c00;
+	margin: auto;
+	margin-top: 10;
+	padding-top: 5%;
+}
+
+.govde-ic{
+	width: 70%;
+	height: 80%;
+	border-radius: 12px;
+	background-color: white;
+	margin: auto;
+}
+
+.govde-ic-sol{
+	width: 33%;
+	height: 100%;
+	background-color: none;
+	float: left;
+}
+
+.govdesolust-yazı{
+	color: #4f4f4f;
+	font-weight: bold;
+	font-size: 28px;
+	padding-left: 15%;
+	padding-top: 30%;
+}
+
+.govdesolalt-yazı{
+
+	color: black;
+	font-size: 20px;
+	padding-left: 15%;
+	padding-top: 5%;
+
+}
+.govdesol-buton{
+	width: 40%;
+	height: 10%;
+	border-radius: 15px;
+	font-size: 16px;
+	margin-left: 20%;
+	margin-top: 15%;
+	background-color:  #ff8c00;
+}
+
+.govde-ic-sag{
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 66%;
+	height: 97.5%;
+	border-radius: 20px;
+	background-color: #ff8c00;
+	float: left;
+
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.govdeara-div{
+	width: 88%;
+	height: 17%;
+	margin: auto;
+	background-color: none;
+}
+
+.govdeara-yazı{
+	width: 30%;
+	font-size: 33px;
+	font-weight: bold;
+	padding-top: 4%;	
+	padding-left: 5%;
+	color: #4f4f4f;
+	background-color: none;
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.govdealt-div{
+
+	width: 88%;
+	height: 33%;
+	background-color: none;
+	margin: auto;
+	padding-top: 1.5%;
+
+
+
+}
+
+.govdeic1-div{
+
+	width: 27%;
+	height: 89%;
+	float: left;
+	margin-left: 5%;
+	border-radius: 12px;
+	background-color: black;
+
+}
+
+.govdeic2-div{
+
+	width: 27%;
+	height: 89%;
+	margin: auto;
+	margin-bottom: -20%;
+	border-radius: 12px;
+	background-color: black;
+}
+
+/*
+.govdeic2-div{
+
+	width: 27%;
+	height: 89%;
+	float: right;
+	margin-right: 5%;
+	border-radius: 12px;
+	background-color: black;
+}
+
+*/
+.govdeic3-div{
+
+	width: 27%;
+	height: 89%;
+	float: right;
+	margin-right: 5%;
+	border-radius: 12px;
+	background-color: black;
+}
+
+.govdealt-div div:hover{
+	width: 28%;
+	height: 90%;
+
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.alt-hr{
+
+	border-width: 1;
+	margin-top: -2;
+} 
+
+.altmnenuana-yazı{
+
+	width: 100%;
+	height: 10%;
+	background-color: none;
+}
+
+.anamenu-sol{
+
+	width: 50%;
+	height: 100%;
+	float: left;
+ 	background-color: none;
+}
+.anamenusag-yazı{
+
+	font-family: aricel;
+	font-size: 20px;
+	padding-left: 21%;
+	line-height: 4;
+	font-weight: bold;
+	color: black;
+
+}
+.anamenu-sag{
+
+	width: 50%;
+	height: 100%;
+	float: right;
+ 	background-color: none;
+}
+.anmenusol-yazı{
+
+	font-family: aricel;
+	font-size: 20px;
+	padding-left: 3.3%;
+	line-height: 4;
+	font-weight: bold;
+	color: black;
+
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+
+.ustmenu{
+
+	width: 100%;
+	height: 55%;
+	background-color: none;
+
+}
+.icmenu-in{
+
+	height: 100%;
+	width: 80%;
+	background-color: none;
+	margin: auto;
+}
+.icmenu-in ul{
+
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 5%;
+}
+
+.icmenu-in li{
+
+	text-decoration: none;
+}
+.icmenu-in li a{
+
+	color: black;
+	font-size: 13px;
+	text-decoration: none;
+	line-height: 1.8;
+
+}
+.icmenu-in a:hover{
+
+	color: black;
+	border-bottom-style: solid;
+	border-width: 1.5px;
+
+	padding-bottom: 2%;	
+}
+
+.ust-solmenu{
+
+	width: 49%;
+	height: 100%;
+	float: left;
+	background-color: none;
+
+}
+
+.ustlist1-sol{
+
+	width: 33%;
+	height: 100%;
+	float: left;
+	background-color: none;
+
+}
+.ustlist1-orta{
+
+	width: 33%;
+	height: 100%;
+	float: left;
+	background-color: none;
+
+}
+.ustlist1-sag{
+
+	width: 33%;
+	height: 100%;
+	float: left;
+	background-color: none;
+
+}
+
+
+.ust-sagmenu{
+
+	width: 49%;
+	height: 100%;
+	float: right;
+	background-color: none;
+}
+.ustlist2-sol{
+
+	width: 33%;
+	height: 100%;
+	float: right;
+	background-color: none;
+
+}
+.ustlist2-orta{
+
+	width: 33%;
+	height: 100%;
+	float: right;
+	background-color: none;
+
+}
+.ustlist2-sag{
+
+	width: 33%;
+	height: 100%;
+	float: right;
+	background-color: none;
+
+}
+
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+.altmenu{
+	width: 100%;
+	height: 60%;
+	background-color: black;
+}
+.altmenu-in{
+	width: 80%;
+	height: 100%;
+	background-color: none;
+	margin: auto;
+}
+.altmenu-in ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 5%;
+}
+
+.altmenu-in li{
+	margin-top: 2%;
+	text-decoration: none;
+}
+.altmenu-in li a{
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+	line-height: 2.5;
+
+}
+.altmenu-in a:hover{
+
+	color: white;
+	border-bottom-style: solid;
+	border-width: 1.5px;
+	background-color: 1c1c1c;
+	padding-bottom: 2%;	
+}
+
+.list-sol{
+	width: 25%;
+	height: 90%;
+	float: left;
+	
+	background-color: none;
+}
+.list-orta1{
+	width: 25%;
+	height: 90%;
+	float: left;
+
+	background-color: none;
+}
+.list-orta2{
+	width: 25%;
+	height:90%;
+	float: left;
+
+	background-color: none;
+}
+.list-sag{
+	width: 25%;
+	height: 90%;
+	float: right;
+	
+	background-color: none;
+}
+
+
+#modayol-yazı{
+	font-size: 19;
+	font-weight: bold;
+	line-height: 3.6;
+
+}
+.alısveris-yazı{
+	font-weight: bold;
+	color: white;
+	line-height: 7;
+}
+.mobil-yazı{
+	font-weight: bold;
+	color: white;
+	line-height: 3;
+}
+
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+
+
+.alt-bilgi1{
+	width: 100%;
+	height: 4.5%;
+	background-color: #4f4f4f;
+}
+.sol-alt{
+	height: 100%;
+	width: 63%;
+	background-color: none;
+	float: left;
+
+}
+.alt-yazı1{
+	padding-left: 17%;
+	font-size: 12px;
+	padding-top: 0.7%;
+	color: white;
+
+
+}
+.sag-alt{
+	height: 100%;
+	width: 37%;
+	background-color: none;
+	float: right;
+
+}
+.alt-yazı2{
+	padding-left: 3%;
+	font-size: 11px;	
+	line-height: 2.9;
+	color: white;
+}
+.sag-alt a{
+	list-style-type: none;
+	text-decoration: none;
+
+}
